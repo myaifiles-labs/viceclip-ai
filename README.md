@@ -4,26 +4,13 @@
   <p><strong>Free, Open-Source AI YouTube Shorts & Reels Clipper (Zero Watermark)</strong></p>
   <p>Turn long-form YouTube videos or MP4s into viral 9:16 vertical clips with AI hook detection, dynamic word-by-word captions, and split-screen gaming/reaction framing.</p>
 
-  <!-- Clickable Badges -->
+  <br/>
+
   <p>
-    <a href="https://colab.research.google.com/github/myaifiles-labs/viceclip-ai/blob/main/ViceClip_AI.ipynb" target="_blank">
-      <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="28"/>
-    </a>
-    <a href="https://github.com/myaifiles-labs/viceclip-ai/stargazers">
-      <img src="https://img.shields.io/github/stars/myaifiles-labs/viceclip-ai?style=for-the-badge&color=ff2a85&labelColor=0d0714" alt="GitHub Stars" height="28"/>
-    </a>
-    <a href="https://github.com/myaifiles-labs/viceclip-ai/blob/main/LICENSE">
-      <img src="https://img.shields.io/badge/License-MIT-00f0ff?style=for-the-badge&labelColor=0d0714" alt="MIT License" height="28"/>
-    </a>
-    <a href="https://myaifiles.in">
-      <img src="https://img.shields.io/badge/Website-myaifiles.in-ff9e00?style=for-the-badge&labelColor=0d0714" alt="MyAIFiles" height="28"/>
-    </a>
+    <a href="https://colab.research.google.com/github/myaifiles-labs/viceclip-ai/blob/main/ViceClip_AI.ipynb" target="_blank"><img src="https://img.shields.io/badge/Launch-Open_in_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white&labelColor=0d0714" alt="Open In Colab" height="28"/></a>&nbsp;&nbsp;<a href="https://myaifiles.in" target="_blank"><img src="https://img.shields.io/badge/Website-myaifiles.in-ff9e00?style=for-the-badge&labelColor=0d0714" alt="MyAIFiles" height="28"/></a>&nbsp;&nbsp;<a href="https://instagram.com/myaifiles" target="_blank"><img src="https://img.shields.io/badge/Instagram-@myaifiles-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d0714" alt="Instagram" height="28"/></a>&nbsp;&nbsp;<a href="https://www.youtube.com/@myaifiles" target="_blank"><img src="https://img.shields.io/badge/YouTube-@myaifiles-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0d0714" alt="YouTube" height="28"/></a>&nbsp;&nbsp;<a href="https://github.com/myaifiles-labs/viceclip-ai/stargazers" target="_blank"><img src="https://img.shields.io/github/stars/myaifiles-labs/viceclip-ai?style=for-the-badge&color=ff2a85&labelColor=0d0714" alt="GitHub Stars" height="28"/></a>
   </p>
 
   <br/>
-
-  <!-- App UI Mockup Preview -->
-  <img src="assets/preview.png" alt="ViceClip AI Mobile & Desktop UI Preview" width="720" style="border-radius: 16px;" />
 
 </div>
 
@@ -33,7 +20,7 @@
 
 | Feature | **ViceClip AI (Free)** | **Paid AI Clippers (\$19–\$49/mo)** |
 | :--- | :---: | :---: |
-| **Watermark** | ❌ **Zero Watermark** | ⚠️ Watermark on Free Plan |
+| **Watermark** | ✅ **Zero Watermark** | ⚠️ Watermark on Free Plan |
 | **Monthly Subscription** | ✅ **₹0 / \$0 Forever** | ❌ \$19 – \$49 / month |
 | **AI Viral Hook Detection** | ✅ **Gemini 2.5 Flash** | ✅ Proprietary |
 | **Word-by-Word Captions** | ✅ **Hormozi, Karaoke Pill, Neon** | ✅ Paid Tier Only |
@@ -47,7 +34,7 @@
 
 Run **ViceClip AI** directly in your browser using Google Colab's free cloud runtime:
 
-1. Click the **`Open In Colab`** badge above (or open [Google Colab](https://colab.research.google.com/)).
+1. Click the **`Open in Colab`** button above (or open [Google Colab](https://colab.research.google.com/)).
 2. Run the single cell (`▶`) and click the generated link to open the **ViceClip AI Studio**:
 
 ```python
