@@ -1,0 +1,7 @@
+yt-dlp[default]
+faster-whisper
+google-genai
+fastapi
+uvicorn
+python-multipart
+requests
