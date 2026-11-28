@@ -12,6 +12,11 @@
 
 **[Launch in Colab](https://colab.research.google.com/github/myaifiles-labs/viceclip-ai/blob/main/ViceClip_AI.ipynb)** · **[Get a Gemini API key](https://aistudio.google.com/apikey)** · **[Report an issue](https://github.com/myaifiles-labs/viceclip-ai/issues)**
 
+
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@myaifiles)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/myaifiles/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Join_Channel-128C4E?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb9YCE8CxoB0JLMuuW0N)
+
 </div>
 
 ---
@@ -118,7 +123,11 @@ Found a bug or have a feature request? [Open an issue](https://github.com/myaifi
 
 **Built with ❤️ by My AI Files**
 
-[Website](https://myaifiles.in) · [Instagram](https://www.instagram.com/myaifiles/) · [YouTube](https://www.youtube.com/@myaifiles)
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@myaifiles)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/myaifiles/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Join_Channel-128C4E?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb9YCE8CxoB0JLMuuW0N)
+
+[Visit our website](https://myaifiles.in)
 
 <sub>ViceClip AI Community Beta · Powered by your own Colab runtime and API key.</sub>
 
