@@ -1,41 +1,125 @@
 <div align="center">
 
-  <h1>🎬 VICECLIP AI</h1>
-  <p><strong>Free, Open-Source AI YouTube Shorts & Reels Clipper (Zero Watermark)</strong></p>
-  <p>Turn long-form YouTube videos or MP4s into viral 9:16 vertical clips with AI hook detection, dynamic word-by-word captions, and split-screen gaming/reaction framing.</p>
+# 🎬 VICECLIP AI
 
-  <br/>
+### Turn long videos into short, shareable clips — with AI.
 
-  <p>
-    <a href="https://colab.research.google.com/github/myaifiles-labs/viceclip-ai/blob/main/ViceClip_AI.ipynb" target="_blank"><img src="https://img.shields.io/badge/Launch-Open_in_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white&labelColor=0d0714" alt="Open In Colab" height="28"/></a>&nbsp;&nbsp;<a href="https://myaifiles.in" target="_blank"><img src="https://img.shields.io/badge/Website-myaifiles.in-ff9e00?style=for-the-badge&labelColor=0d0714" alt="MyAIFiles" height="28"/></a>&nbsp;&nbsp;<a href="https://instagram.com/myaifiles" target="_blank"><img src="https://img.shields.io/badge/Instagram-@myaifiles-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d0714" alt="Instagram" height="28"/></a>&nbsp;&nbsp;<a href="https://www.youtube.com/@myaifiles" target="_blank"><img src="https://img.shields.io/badge/YouTube-@myaifiles-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0d0714" alt="YouTube" height="28"/></a>&nbsp;&nbsp;<a href="https://github.com/myaifiles-labs/viceclip-ai/stargazers" target="_blank"><img src="https://img.shields.io/github/stars/myaifiles-labs/viceclip-ai?style=for-the-badge&color=ff2a85&labelColor=0d0714" alt="GitHub Stars" height="28"/></a>
-  </p>
+**A free, notebook-powered video clipping studio by [My AI Files](https://myaifiles.in).**
 
-  <br/>
+[![Open in Google Colab](https://img.shields.io/badge/🚀_OPEN_IN_GOOGLE_COLAB-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/myaifiles-labs/viceclip-ai/blob/main/ViceClip_AI.ipynb)
+[![Community Beta](https://img.shields.io/badge/RELEASE-COMMUNITY_BETA-FF2E93?style=for-the-badge)](https://github.com/myaifiles-labs/viceclip-ai)
+[![No Watermark Added](https://img.shields.io/badge/EXPORT-NO_ADDED_WATERMARK-19162B?style=for-the-badge)](https://github.com/myaifiles-labs/viceclip-ai)
+
+**[Launch in Colab](https://colab.research.google.com/github/myaifiles-labs/viceclip-ai/blob/main/ViceClip_AI.ipynb)** · **[Get a Gemini API key](https://aistudio.google.com/apikey)** · **[Report an issue](https://github.com/myaifiles-labs/viceclip-ai/issues)**
 
 </div>
 
 ---
 
-## 🔥 Why ViceClip AI vs Paid Tools?
+## ✨ What is ViceClip AI?
 
-| Feature | **ViceClip AI (Free)** | **Paid AI Clippers (\$19–\$49/mo)** |
-| :--- | :---: | :---: |
-| **Watermark** | ✅ **Zero Watermark** | ⚠️ Watermark on Free Plan |
-| **Monthly Subscription** | ✅ **₹0 / \$0 Forever** | ❌ \$19 – \$49 / month |
-| **AI Viral Hook Detection** | ✅ **Gemini 2.5 Flash** | ✅ Proprietary |
-| **Word-by-Word Captions** | ✅ **Hormozi, Karaoke Pill, Neon** | ✅ Paid Tier Only |
-| **Google Fonts & Colors** | ✅ **Full Live Customizer** | ⚠️ Limited on Free |
-| **Gaming + Facecam Split** | ✅ **Drag & Drop Dual Boxes** | ❌ Paid Pro Feature |
-| **Runs On** | 📱 **Android, iOS, Windows, macOS** | 🌐 Web Only |
+ViceClip AI is a browser-based editing interface launched **inside your own Google Colab runtime**. It helps you find interesting moments in longer videos, reframe them for short-form content, customize captions, and export video clips.
 
----
+Your own **Gemini API key** powers AI-based clip suggestions. The current beta uses transcript analysis to suggest moments; it does **not** visually inspect gameplay to guarantee exciting highlights.
 
-## ⚡ 1-Click Launch (No Installation Required)
+> **Free community beta:** No ViceClip subscription is required. Google Colab availability, GPU availability, Gemini quotas, and any provider charges are controlled by their respective providers.
 
-Run **ViceClip AI** directly in your browser using Google Colab's free cloud runtime:
+## 🚀 Launch ViceClip AI
 
-1. Click the **`Open in Colab`** button above (or open [Google Colab](https://colab.research.google.com/)).
-2. Run the single cell (`▶`) and click the generated link to open the **ViceClip AI Studio**:
+<div align="center">
 
-```python
-!git clone [https://github.com/myaifiles-labs/viceclip-ai.git](https://github.com/myaifiles-labs/viceclip-ai.git) && cd viceclip-ai && pip install -q -r requirements.txt && python -c "from google.colab.output import eval_js; print('👉 Launch ViceClip AI:', eval_js('google.colab.kernel.proxyPort(8000)'))" && uvicorn app:app --host 0.0.0.0 --port 8000
+<a href="https://colab.research.google.com/github/myaifiles-labs/viceclip-ai/blob/main/ViceClip_AI.ipynb"><img src="https://img.shields.io/badge/▶_OPEN_VICECLIP_IN_COLAB-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Open ViceClip AI in Google Colab"></a>
+
+</div>
+
+1. **Open the notebook.** Tap the orange button above and sign in to Google if prompted.
+2. **Select a runtime.** In Colab, use **Runtime → Change runtime type** and select a GPU if available. CPU mode may be slower.
+3. **Run all cells.** Select **Runtime → Run all**. The notebook installs its dependencies and starts the studio automatically.
+4. **Open the studio.** At the end of the notebook, tap the generated **ViceClip Studio** link.
+5. **Connect Gemini.** In the **studio welcome screen**, choose **Get Free API Key** (opens Google AI Studio), create or copy your key, paste it into **Connect Gemini API**, and connect.
+6. **Create clips.** Import a supported video or YouTube URL, generate clip suggestions, review and customize, then export.
+
+**No API key needs to be pasted into notebook code or Colab Secrets.** The key is stored in the current Colab Python runtime memory, not intentionally saved to Google Drive or the browser. It is lost when that runtime ends.
+
+### 📱 Using a phone?
+
+Open the Colab link in your mobile browser. You'll still need to authorize and run the notebook in Colab before opening the mobile-responsive studio. Switching between the Colab and studio tabs is normal. Keep the Colab runtime connected while processing your videos.
+
+## 🧰 Included in this beta
+
+| Feature | What it does |
+| :-- | :-- |
+| 📥 Video input | Upload a video or import from a supported YouTube URL |
+| 📝 Transcription | Faster-Whisper transcript with word timing |
+| 🧠 AI moment suggestions | Gemini-assisted transcript-based clip selection |
+| 🖼️ Reframing | Full screen, gaming split, dual speaker, and blur background |
+| 🎨 Caption styling | Karaoke, word pop, classic, and boxed caption styles |
+| 👀 Previews | Layout previews and caption previews |
+| ✂️ Export | Vertical H.264/AAC clips with selectable render settings |
+| 📦 Downloads | Download individual finished clips or a ZIP |
+| 🔑 Frontend API setup | Enter your own Gemini key in the studio, not the notebook |
+
+**Important:** Clip selection and framing are editing suggestions, not guarantees of virality. The beta is still under development; functionality and runtime compatibility may change.
+
+## 🔐 Privacy & keys
+
+- Use **your own** Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey).
+- ViceClip holds the key in memory for your **current Colab runtime**. When the runtime stops/restarts, reconnect it.
+- Do not include personal API keys in screenshots, issues, notebook outputs, or public commits.
+- Processing files are kept in the active Colab environment during the session. **Download exports before your runtime ends**; Colab storage is ephemeral.
+- This project is intended for a single-user Colab session, **not a shared public production server**.
+
+## ❓ Frequently asked questions
+
+<details>
+<summary><b>Do I need to install anything on my phone or laptop?</b></summary>
+
+No local Python installation is required. You do need a Google account, a Colab runtime, a supported browser, and a Gemini API key.
+</details>
+
+<details>
+<summary><b>Is it completely unlimited and always free?</b></summary>
+
+No. ViceClip does not charge a subscription for this beta, but Google Colab may restrict or disconnect runtimes and Gemini API access has its own pricing and rate limits. See [Colab FAQ](https://research.google.com/colaboratory/faq.html) and [Gemini API pricing](https://ai.google.dev/gemini-api/docs/pricing).
+</details>
+
+<details>
+<summary><b>Why does the generated studio link stop working?</b></summary>
+
+The link connects to your current Colab runtime. If it disconnects, reconnect/restart the notebook and use its newly generated studio link.
+</details>
+
+<details>
+<summary><b>Can I use any video I find online?</b></summary>
+
+Only process videos you own or have permission to use. Creating clips does not remove third-party copyright obligations or guarantee YouTube monetization eligibility.
+</details>
+
+<details>
+<summary><b>Can I use it without a GPU?</b></summary>
+
+Some steps can fall back to CPU, but performance and availability vary by runtime. GPU is recommended for faster work.
+</details>
+
+## 🗺️ Community beta roadmap
+
+The following are **planned**, not included in this release:
+
+- Improved gallery thumbnails and mobile layouts
+- More layout presets and facecam controls
+- Expanded caption styles and output aspect ratios
+- Runtime-session project history and multi-clip editing
+
+## 🤝 Feedback and community
+
+Found a bug or have a feature request? [Open an issue](https://github.com/myaifiles-labs/viceclip-ai/issues).
+
+<div align="center">
+
+**Built with ❤️ by My AI Files**
+
+[Website](https://myaifiles.in) · [Instagram](https://www.instagram.com/myaifiles/) · [YouTube](https://www.youtube.com/@myaifiles)
+
+<sub>ViceClip AI Community Beta · Powered by your own Colab runtime and API key.</sub>
+
+</div>
